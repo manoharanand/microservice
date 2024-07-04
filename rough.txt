@@ -1,0 +1,13 @@
+docker-compose exec backend sh # to run a container backend is the service name in docker file
+
+#to create migrations
+python manage.py makemigrations
+
+#to make migrations
+Run 'python manage.py migrate' to apply them.
+
+#create productSerializer file in product 
+
+#--------another flask app is created inside main folder
+another conainter would run for this app
+-> problem is db container is not running
